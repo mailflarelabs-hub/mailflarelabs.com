@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MailFlare Support</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><h1>Support</h1></header>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a></nav>
+
+<h2>Contact</h2>
+<p>Email <a href="mailto:support@mailflarelabs.com">support@mailflarelabs.com</a>. Please include your macOS version and, if relevant, the last lines of the diagnostic log (menu bar icon → Settings → Open config file reveals the folder; the log is <code>mailflare.log</code> next to it).</p>
+
+<h2>Common questions</h2>
+<div class="card"><strong>The alert didn't appear for a message.</strong><br>Check that a rule matches the sender or subject (rules are case-insensitive; domains also match subdomains), that alerts aren't paused, and that quiet hours aren't active. Messages that arrived before MailFlare was launched never alert, by design.</div>
+<div class="card"><strong>Can it alert on every email?</strong><br>No — a rule with no senders, domains, or keywords never matches. MailFlare is meant for the few messages you can't miss.</div>
+<div class="card"><strong>Does it read my email?</strong><br>Only the sender, subject, and preview snippet of new unread messages, locally, to check your rules. See the <a href="privacy.html">Privacy Policy</a>.</div>
+<div class="card"><strong>How do I disconnect my Google account?</strong><br>Settings → Gmail Account → Sign Out. MailFlare revokes its access with Google and removes the token from your Keychain.</div>
+
+<footer>© 2026 MailFlare Labs · <a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
